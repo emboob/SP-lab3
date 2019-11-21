@@ -1,3 +1,8 @@
+/**
+ * 시스템 프로그래밍 lab3 과제 실습문제 9번
+ * 파일 이름 : chatt.h
+ * 만든이 : 20153265 김동현
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -11,9 +16,9 @@
 #define MQ_2 "/mq2"
 #define MSG_SIZE 256
 #define MAX_MSG 5
-#define MAX_LOG 512
+#define MAX_LOG 512 
 
-pthread_mutex_t  mutex;
+pthread_mutex_t mutex;
 int fd;
 mqd_t mq1, mq2;
 char send_buf [MSG_SIZE];
