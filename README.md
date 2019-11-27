@@ -50,3 +50,8 @@
         * 소스 코드 : use_shm_sem_copy.c
         * 결과 실행 파일 : use_shm_sem_copy
 
+* 실습문제 11번 (팀 과제)
+    * 간단한 쉘 프로그램 만들기
+        * 소스 코드 : shell.c
+        * 결과 실행 파일 : shell
+
